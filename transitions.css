@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 98vh;
+}
+
+#main {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform:perspective(500px) rotatex(50deg);
+}
+
+span {
+    position: absolute;
+    border-radius: 50%;
+    animation: virat 3s infinite;
+
+
+}
+
+@keyframes virat {
+    0% {
+        transform: translateZ(0px);
+
+    }
+
+    50% {
+        transform: translateZ(200px);
+
+    }
+
+    100% {
+        transform: translateZ(0px);
+
+    }
+}
+
+span:nth-child(1) {
+    border: 2px red solid;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    animation-delay: 0.1s;
+}
+span:nth-child(2) {
+    border: 2px rgb(21, 0, 255) solid;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    animation-delay: 0.2s;
+
+}
+span:nth-child(3) {
+    border: 2px rgb(0, 255, 145) solid;
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    animation-delay: 0.3s;
+
+}
+span:nth-child(4) {
+    border: 2px rgb(255, 247, 0) solid;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    animation-delay: 0.4s;
+
+
+}
+span:nth-child(5) {
+    border: 2px rgb(255, 0, 179) solid;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    animation-delay: 0.5s;
+
+}
+span:nth-child(6) {
+    border: 2px rgb(0, 47, 255) solid;
+    top: 60px;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    animation-delay: 0.6s;
+
+}
+span:nth-child(7) {
+    border: 2px rgb(255, 183, 0) solid;
+    top: 70px;
+    bottom: 70px;
+    left: 70px;
+    right: 70px;
+    animation-delay: 0.7s;
+
+}
+span:nth-child(8) {
+    border: 2px rgb(26, 255, 0) solid;
+    top: 80px;
+    bottom: 80px;
+    left: 80px;
+    right: 80px;
+    animation-delay: 0.8s;
+
+}
+span:nth-child(9) {
+    border: 2px rgb(255, 0, 0) solid;
+    top: 90px;
+    bottom: 90px;
+    left: 90px;
+    right: 90px;
+    animation-delay: 0.9s;
+
+}
+span:nth-child(10) {
+    border: 2px rgb(123, 0, 255) solid;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    animation-delay: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+
+}
